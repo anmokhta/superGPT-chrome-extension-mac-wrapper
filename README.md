@@ -1,0 +1,1 @@
+# superGPT-chrome-extension-mac-wrapper
