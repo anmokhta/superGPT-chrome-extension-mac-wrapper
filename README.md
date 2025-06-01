@@ -12,7 +12,7 @@ You must download or build Chromium yourself and place it in the project directo
 
 ### Where to Download
 
-We recommend the [Woolyss Chromium download page](https://chromium.woolyss.com/#mac) for up-to-date, official, and unmodified builds:
+I recommend the [Woolyss Chromium download page](https://chromium.woolyss.com/#mac) for up-to-date, official, and unmodified builds:
 
 - [https://chromium.woolyss.com/#mac](https://chromium.woolyss.com/#mac)
 
@@ -42,7 +42,7 @@ If you update Chromium, just replace the `Chromium.app` in the project root and 
 - Runs ChatGPT as a standalone desktop app on macOS.
 - Loads [Superpower ChatGPT](https://github.com/saeedezzati/superpower-chatgpt) (Planned: other Chrome extensions).
 - **Fully standalone version:** all required files are bundled inside the app’s `Contents/Resources` folder.
-- All paths are relative—portable and folder-agnostic.
+- All paths are relative! Portable and folder-agnostic.
 
 Planned/WIP:
 - Blocks new windows/tabs and disables background tasks.
@@ -70,7 +70,7 @@ Planned/WIP:
 **Why this approach?**
 - No Homebrew, no system-wide changes, and no risk to your main Chrome or user profile.
 - You can easily update the app or extension by reinjecting resources.
-- Honestly, I wanted to explore scripting, chromium, and ChatGPT
+- Honestly, I wanted to explore scripting, Chromium, Automater, and ChatGPT
 
 ---
 
