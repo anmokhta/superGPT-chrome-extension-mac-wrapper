@@ -5,6 +5,39 @@ A portable, standalone macOS app wrapper for running [ChatGPT](https://chatgpt.c
 
 ---
 
+## Chromium Download & Setup
+
+**Note:**  
+Due to GitHub’s file size limits, `Chromium.app` is **not included** in this repository.  
+You must download or build Chromium yourself and place it in the project directory before bundling with the injection script.
+
+### Where to Download
+
+We recommend the [Woolyss Chromium download page](https://chromium.woolyss.com/#mac) for up-to-date, official, and unmodified builds:
+
+- [https://chromium.woolyss.com/#mac](https://chromium.woolyss.com/#mac)
+
+Choose the latest stable **"standard" Chromium** build (not “ungoogled” unless you want advanced privacy and understand the limitations).
+
+### Setup
+
+1. **Download and extract** `Chromium.app` to the root of this project directory (so it’s next to your `SuperGPT.app` and `site-script.sh`).
+2. **Run** `inject-resources.sh` as described below to copy it into the standalone app bundle.
+
+The directory structure should look like:
+
+```
+SuperGPT.app/
+Chromium.app/
+Superpower-ChatGPT/
+site-script.sh
+inject-resources.sh
+```
+
+If you update Chromium, just replace the `Chromium.app` in the project root and re-run `inject-resources.sh`.
+
+---
+
 ## Features
 
 - Runs ChatGPT as a standalone desktop app on macOS.

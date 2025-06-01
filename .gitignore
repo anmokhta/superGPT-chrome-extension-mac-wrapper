@@ -1,2 +1,5 @@
 **/.chromium-myapp-profile/
 **/.DS_Store
+Chromium.app/
+STANDALONE/SuperGPT.app/Contents/Resources/Chromium.app/
+*.app/Contents/Resources/Chromium.app/
