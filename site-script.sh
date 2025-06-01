@@ -30,4 +30,5 @@ APP_URL="https://chatgpt.com/"
   --disable-local-network-requests \
   --no-p2p \
   --disable-new-tab-button \
-  --enable-features=WebAuthentication,WebAuthenticationConditionalUI,OverlayScrollbars
+  --enable-features=WebAuthentication,WebAuthenticationConditionalUI,OverlayScrollbars \
+  --disable-background-mode
