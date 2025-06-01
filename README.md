@@ -1,4 +1,3 @@
-# superGPT-chrome-extension-mac-wrapper
 # SuperGPT Chromium Wrapper
 
 A portable, standalone macOS app wrapper for running [ChatGPT](https://chatgpt.com/) in a secure Chromium window with a custom (not mine!!) extension.
@@ -71,6 +70,7 @@ Planned/WIP:
 **Why this approach?**
 - No Homebrew, no system-wide changes, and no risk to your main Chrome or user profile.
 - You can easily update the app or extension by reinjecting resources.
+- Honestly, I wanted to explore scripting, chromium, and ChatGPT
 
 ---
 
